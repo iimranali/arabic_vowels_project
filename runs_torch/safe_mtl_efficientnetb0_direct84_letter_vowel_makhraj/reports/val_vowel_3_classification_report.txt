@@ -1,0 +1,9 @@
+              precision    recall  f1-score   support
+
+       Fatha     0.9969    0.9845    0.9907       323
+       Kasra     0.9841    0.9936    0.9888       311
+       Damma     0.9867    0.9900    0.9884       300
+
+    accuracy                         0.9893       934
+   macro avg     0.9892    0.9894    0.9893       934
+weighted avg     0.9893    0.9893    0.9893       934

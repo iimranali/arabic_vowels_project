@@ -1,0 +1,11 @@
+              precision    recall  f1-score   support
+
+     Al-Jawf     0.7500    0.7500    0.7500        32
+     Al-Halq     0.6196    0.5534    0.5846       103
+    Al-Lisan     0.8744    0.8889    0.8816       666
+ Al-Shafatan     0.6100    0.6224    0.6162        98
+ Al-Khayshum     0.7879    0.7429    0.7647        35
+
+    accuracy                         0.8137       934
+   macro avg     0.7284    0.7115    0.7194       934
+weighted avg     0.8111    0.8137    0.8121       934

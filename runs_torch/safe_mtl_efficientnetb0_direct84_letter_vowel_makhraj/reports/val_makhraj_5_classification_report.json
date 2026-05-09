@@ -1,0 +1,45 @@
+{
+  "Al-Jawf": {
+    "precision": 0.75,
+    "recall": 0.75,
+    "f1-score": 0.75,
+    "support": 32.0
+  },
+  "Al-Halq": {
+    "precision": 0.6195652173913043,
+    "recall": 0.5533980582524272,
+    "f1-score": 0.5846153846153846,
+    "support": 103.0
+  },
+  "Al-Lisan": {
+    "precision": 0.8744460856720827,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8816083395383469,
+    "support": 666.0
+  },
+  "Al-Shafatan": {
+    "precision": 0.61,
+    "recall": 0.6224489795918368,
+    "f1-score": 0.6161616161616161,
+    "support": 98.0
+  },
+  "Al-Khayshum": {
+    "precision": 0.7878787878787878,
+    "recall": 0.7428571428571429,
+    "f1-score": 0.7647058823529411,
+    "support": 35.0
+  },
+  "accuracy": 0.8137044967880086,
+  "macro avg": {
+    "precision": 0.728378018188435,
+    "recall": 0.7115186139180592,
+    "f1-score": 0.7194182445336578,
+    "support": 934.0
+  },
+  "weighted avg": {
+    "precision": 0.8110835846088534,
+    "recall": 0.8137044967880086,
+    "f1-score": 0.812114649908046,
+    "support": 934.0
+  }
+}
