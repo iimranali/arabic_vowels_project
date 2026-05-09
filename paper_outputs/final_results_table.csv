@@ -1,0 +1,8 @@
+model,metric_type,test_accuracy,test_macro_f1,test_accuracy_percent,test_macro_f1_percent,run_dir
+"Single-task ResNet18, direct 84-class",direct84,0.6106951871657754,0.600098355756285,61.07,60.01,safe_single_task_resnet18_84
+"Single-task ResNet18, vowel-only",vowel,0.9957219251336898,0.9957467689918973,99.57,99.57,safe_single_task_resnet18_vowel
+"MTL ResNet18, Letter + Vowel, derived 84",derived84,0.5957219251336898,0.5885434580264441,59.57,58.85,safe_mtl_resnet18_letter_vowel
+"MTL ResNet18, Letter + Vowel + Makhraj, derived 84",derived84,0.5957219251336898,0.5911356938255119,59.57,59.11,safe_mtl_resnet18_letter_vowel_makhraj
+"MTL ResNet18, Direct84 + Letter + Vowel",direct84,0.5989304812834224,0.5950916300415363,59.89,59.51,safe_mtl_resnet18_direct84_letter_vowel
+"MTL ResNet18, Direct84 + Letter + Vowel + Makhraj",direct84,0.6374331550802139,0.6322967482359615,63.74,63.23,safe_mtl_resnet18_direct84_letter_vowel_makhraj
+"MTL EfficientNet-B0, Direct84 + Letter + Vowel + Makhraj",direct84,0.5957219251336898,0.590063605982899,59.57,59.01,safe_mtl_efficientnetb0_direct84_letter_vowel_makhraj

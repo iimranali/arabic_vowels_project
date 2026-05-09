@@ -1,0 +1,22 @@
+
+\begin{table}[htbp]
+\centering
+\caption{Leakage-Safe Test Results Across Model Variants}
+\label{tab:leakage_safe_results}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\renewcommand{\arraystretch}{1.15}
+\begin{tabular}{p{0.53\columnwidth}cc}
+\toprule
+\textbf{Model} & \textbf{Acc. (\%)} & \textbf{Macro-F1 (\%)} \\
+\midrule
+Single-task ResNet18, direct 84-class & 61.07 & 60.01 \\
+Single-task ResNet18, vowel-only & 99.57 & 99.57 \\
+MTL ResNet18, Letter + Vowel, derived 84 & 59.57 & 58.85 \\
+MTL ResNet18, Letter + Vowel + Makhraj, derived 84 & 59.57 & 59.11 \\
+MTL ResNet18, Direct84 + Letter + Vowel & 59.89 & 59.51 \\
+\textbf{MTL ResNet18, Direct84 + Letter + Vowel + Makhraj} & \textbf{63.74} & \textbf{63.23} \\
+MTL EfficientNet-B0, Direct84 + Letter + Vowel + Makhraj & 59.57 & 59.01 \\
+\bottomrule
+\end{tabular}
+\end{table}

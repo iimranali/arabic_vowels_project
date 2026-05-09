@@ -1,0 +1,3 @@
+task,total_samples,correct,errors,accuracy,same_vowel_errors,same_letter_errors,different_letter_same_vowel,same_letter_different_vowel,different_letter_different_vowel,same_vowel_error_percent,same_letter_error_percent
+direct84,935,596,339,0.6374331550802139,330,3,330,3,6,97.34513274336283,0.8849557522123894
+derived84,935,593,342,0.6342245989304813,332,6,332,6,4,97.07602339181287,1.7543859649122806
